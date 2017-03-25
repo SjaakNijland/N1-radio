@@ -1,5 +1,5 @@
 /*
-Theme name: Nijmegen 2.0
+Theme name: Nijmegen 1
 Author: Naömi
 Version: 1.0
 */
@@ -8,13 +8,13 @@ Version: 1.0
 body {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color: white;
+    color: #333;
 }
 
 a:link,
 a:visited {
     color: #e7e8e7;
-
+    ;
 }
 
 p {
@@ -26,7 +26,7 @@ p {
 /* general layout */
 
 div.wrapper {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -98,7 +98,7 @@ article.post h2 a:link, a:visited{
 }
 #over h2{
    color: white;
-   margin-left: 21%;
+    margin-left: 21%; 
 }
 #over ul{
     color: white;
@@ -124,7 +124,6 @@ article.post h2 a:link, a:visited{
 /*Navigatie*/
 
 .site-nav ul {
-    color: white;
     position: relative;
     top: 55px;
     font-family: 'Lato', regular;
@@ -142,17 +141,12 @@ article.post h2 a:link, a:visited{
 
 .site-nav li {
     display: inline;
-    color: white;
-
 }
 
 .site-nav a {
     display: inline-block;
     padding: 10px 50px;
     text-decoration: none;
-    color: white;
-
-
 }
 
 .site-nav a:hover {
@@ -171,13 +165,9 @@ article.post h2 a:link, a:visited{
 /*banner*/
 
 #banner {
-    width: 100%;
+    width: 1502px;
     height: 600px;
     z-index: -1;
-}
-#banner img{
-    width: 100%;
-    height: 600px;
 }
 
 input[type=button] {
@@ -202,9 +192,8 @@ input[type=button]:hover {
     padding: 20px 30px;
     border: none;
     position: absolute;
-    /*bottom: 151px;*/
-    top:515px;
-    right: 9px;
+    bottom: 151px;
+    right: 10px;
     border-bottom: 1px solid #e7e8e7;
    
 }
@@ -215,32 +204,9 @@ input[type=button]:hover {
     padding: 20px 30px;
     border: none;
     position: absolute;
-    /*bottom: 60px;*/
-    top:607px;
-    right: 9px;
+    bottom: 60px;
+    right: 10px;
     
-}
-#knop3{
-    width: 245px;
-    background-color: #ac1e30;
-    color: white;
-    padding: 20px 30px;
-    border: none;
-    position: absolute;
-    /*bottom: 151px;*/
-    top:628px;
-    left: 10px;
-
-
-}
-#knop3:hover{
-    background-color: #ba5865;
-    cursor: pointer;
-}
-#live{
-    font-family: 'Lato';
-    text-align: center;
-    font-size: 25px;
 }
 #nu{
      font-family: 'Lato', light;
@@ -312,10 +278,5 @@ td, th {
 tr:nth-child(even) {
     background-color: #e7e8e7;
 }
-#rooster table tr td{
-    color:#ac1e30;
-}
-.post{
-    display: none;
-}
+
 

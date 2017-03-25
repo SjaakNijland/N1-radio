@@ -1,0 +1,1 @@
+<img src="http://localhost/wordpress/wp-content/uploads/2017/03/banner.jpg"  width="1502" height="600" >
