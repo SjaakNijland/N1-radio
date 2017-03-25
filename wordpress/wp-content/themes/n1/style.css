@@ -74,8 +74,10 @@ article.post h2 a:link, a:visited{
 /* footer */
 
 .site-footer {
+    width: 100%;
     margin-top: 30px;
      background-color: #ac1e30;
+    float: left;
 }
 .site-footer p{
     text-align: center;
@@ -295,6 +297,66 @@ input[type=button]:hover {
 #radio h2 span {
     background: #fff;
     padding: 0 10px;
+
+}
+
+#contact h2 {
+display: none;
+}
+
+
+#contact h2 span {
+    display: none;
+}
+#contactpage{
+    color:black;
+    width: 100%;
+    margin: 0 auto;
+
+}
+#contactpage2{
+    color:black;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.rechterinfo{
+    color: black;
+    float: left;
+    width: 20%;
+   margin-left: 25%;
+    margin-top: 5%;
+
+}
+.linkerinfo{
+    float: left;
+    width: 40%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.linkerinfo img{
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 500px;
+   height: 300px;
+
+}
+.rechterinfo2{
+    color: black;
+    float: left;
+    width: 30%;
+    margin-left: 25%;
+    margin-top: 5%;
+
+}
+.linkerinfo2{
+    float: left;
+   margin-top: 10%;
+    width: 20%;
+
+
 }
 
 table {
