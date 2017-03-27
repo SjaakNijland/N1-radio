@@ -6,6 +6,7 @@ function N1_resources(){
 
 add_action('wp_enqueue_scripts', 'N1_resources');
 
+<<<<<<< HEAD
 $args = array(
 	'width'         => 1502,
 	'height'        => 600,
@@ -18,4 +19,6 @@ register_nav_menus(array(
 'primary' => __('Primary Menu'),
 'footer' => __('Footer Menu'),
 ));
+=======
+>>>>>>> origin/master
 ?>

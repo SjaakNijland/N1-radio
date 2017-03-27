@@ -1,4 +1,5 @@
 	<footer class="site-footer">
+<<<<<<< HEAD
 	<div id="over">
 
 <h2 id="footerh2">Over N1</h2>
@@ -27,6 +28,12 @@
 
 </div>
 <!-- wrapper -->
+=======
+		<p><?php bloginfo('name');?> - &copy; <?php echo date('Y');?></p>
+	</footer>
+
+</div<!-- wrapper -->
+>>>>>>> origin/master
 
 <?php wp_footer();?>
 </body>

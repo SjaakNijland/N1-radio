@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 
 
 get_header();
@@ -10,21 +11,30 @@ get_header();
     <?php }?></h2></div>
 <?php
 
+=======
+get_header();
+
+>>>>>>> origin/master
 if(have_posts()) :
 	while (have_posts()) : the_post(); ?>
 	<article class="post">
 		<h2><a href="<?php the_permalink();?>"> <?php the_title();?></a></h2>
 		<?php the_content();?>
+<<<<<<< HEAD
 		<div id="date">
 		<?php the_date(); ?>
         </div>
 	</article>
 
+=======
+	</article>
+>>>>>>> origin/master
 	<?php endwhile;
 	
 	else :
 		echo "<p>No content found</p>";
 endif;
+<<<<<<< HEAD
 ?>
   
 <?php if(is_page('RADIO' )){?>
@@ -158,3 +168,9 @@ get_footer();
     
     
     
+=======
+
+get_footer();
+
+?>
+>>>>>>> origin/master

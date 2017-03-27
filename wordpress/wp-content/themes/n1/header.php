@@ -7,10 +7,15 @@
 		<?php wp_head();?>
 	</head>
 	<body <?php body_class(); ?>>
+<<<<<<< HEAD
+=======
+	
+>>>>>>> origin/master
 	<div class="wrapper">
 	
 		<!-- site head -->
 		<header class="site-head">
+<<<<<<< HEAD
             <a href="<?php echo home_url(); ?>"><img src="http://localhost/wordpress/wp-content/uploads/2017/03/LOGON1GOEDE.png" id="logo"></a>
             <div id="twitt">
           <img src="http://localhost/wordpress/wp-content/uploads/2017/03/1489682638_Tumblr_social_media_logo.png"></div>
@@ -66,5 +71,9 @@
            <?php }?>
             
             
+=======
+			<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+			<h5><?php bloginfo('description'); ?></h5>
+>>>>>>> origin/master
 		</header><!-- /site-head -->
 	
