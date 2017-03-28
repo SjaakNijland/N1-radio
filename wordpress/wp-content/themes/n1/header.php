@@ -46,12 +46,12 @@
            <?php if(is_page('HOME')){?>
           <div id="knop">
                <div id="nu">Nu op n1</div>
-               <div id="now">Lunchbox Jukebox</div>
+               <div id="now"><?php echo do_shortcode("[live]"); ?></div>
           </div> 
                 <div id="smaller-border"></div>
            <div id="knop2">
                <div id="straks">straks op n1</div>
-               <div id="zo">N1 Actueel Blok 1</div>
+               <div id="zo"><?php echo do_shortcode("[next]"); ?></div>
           </div>
                <div id="knop3">
 

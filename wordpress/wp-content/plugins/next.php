@@ -1,7 +1,7 @@
 <?php
 /*
-* Plugin Name: live
-* Description: next song
+* Plugin Name: next
+* Description: volgende nummer
 * Version: 1.0
 * Author: Sjaak Nijland
 */
@@ -9,13 +9,14 @@
  * Created by PhpStorm.
  * User: Sjaak
  * Date: 28-3-2017
- * Time: 11:34
+ * Time: 13:59
  */
-function live_func()
+
+function next_func()
 {
 //Do a GET request
     include 'guzzel/index.php';
-    $response = $client->get($url . 'items/current', [
+    $response = $client->get($url . 'items/next', [
         'headers' => [
             'nonce' => $nonce,
             'timestamp' => $time,
@@ -26,6 +27,7 @@ function live_func()
 //    echo '<table>';
     $data = json_decode($response->getBody(), true);
     echo $data['title'];
+
 //print_r($data);
 //echo $response->getBody();
 //echo "total entries: ".$data["total"];
@@ -39,4 +41,4 @@ function live_func()
 //    }
 //    echo '</table>';
 }
-add_shortcode('live', 'live_func');
+add_shortcode('next', 'next_func');
