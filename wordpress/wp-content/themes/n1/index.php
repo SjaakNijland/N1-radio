@@ -1,82 +1,50 @@
 <?php
 
-<<<<<<< HEAD
 
 
 get_header();
 
 ?>
 <?php if(is_page('HOME' and'nieuws')){?>
+
 <div id="nieuws"><h2><span>Nieuws</span>
     <?php }?></h2></div>
 <?php
 
-=======
-get_header();
-
->>>>>>> origin/master
 if(have_posts()) :
 	while (have_posts()) : the_post(); ?>
 	<article class="post">
 		<h2><a href="<?php the_permalink();?>"> <?php the_title();?></a></h2>
 		<?php the_content();?>
-<<<<<<< HEAD
 		<div id="date">
 		<?php the_date(); ?>
         </div>
 	</article>
 
-=======
-	</article>
->>>>>>> origin/master
 	<?php endwhile;
 	
 	else :
 		echo "<p>No content found</p>";
 endif;
-<<<<<<< HEAD
 ?>
+
+<?php if(is_page('nieuws' )){?>
+	<div id="radio"><h2><span>Nieuws</span>
+		</h2></div><?php }?>
+
   
 <?php if(is_page('RADIO' )){?>
    <div id="radio"><h2><span>Radio</span>
 	   </h2></div><?php }?>
    
    <?php if(is_page('RADIO')){?>
+	   <style>
+		   article.post{
+			   display: none;
+		   }
+	   </style>
    <div id="rooster">
-<!--    <table>-->
-<!---->
-<!--  <tr>-->
-<!--    <td>Alfreds Futterkiste</td>-->
-<!--    <td>Maria Anders</td>-->
-<!--    <td>Germany</td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td>Centro comercial Moctezuma</td>-->
-<!--    <td>Francisco Chang</td>-->
-<!--    <td>Mexico</td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td>Ernst Handel</td>-->
-<!--    <td>Roland Mendel</td>-->
-<!--    <td>Austria</td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td>Island Trading</td>-->
-<!--    <td>Helen Bennett</td>-->
-<!--    <td>UK</td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td>Laughing Bacchus Winecellars</td>-->
-<!--    <td>Yoshi Tannamuri</td>-->
-<!--    <td>Canada</td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td>Magazzini Alimentari Riuniti</td>-->
-<!--    <td>Giovanni Rovelli</td>-->
-<!--    <td>Italy</td>-->
-<!--  </tr>-->
 
-<!--	</table> -->
 	   <?php echo do_shortcode("[schema2]"); ?>
    </div>
    
@@ -86,16 +54,17 @@ endif;
 		</h2></div><?php }?>
 
 
+
 <?php if(is_page('CONTACT')){?>
+	<style>
+		article.post{
+			display: none;
+		}
+	</style>
 
 	<div id="contactpage">
 		<div class="rechterinfo">
-<!--		<p>N1</p>-->
-<!--		<p>Bezoekadres:</p>-->
-<!--		<p>Arsenaalgas 8A</p>-->
-<!--		<p>6511 PE  Nijmegen</p>-->
-<!--		<p>redactie@n1.nl</p>-->
-<!--		<p>024-3608068</p>-->
+
 		<h2>Contactgegevens</h2>
 		<p>N1<br>
 		Bezoekadres:<br>
@@ -168,9 +137,3 @@ get_footer();
     
     
     
-=======
-
-get_footer();
-
-?>
->>>>>>> origin/master
