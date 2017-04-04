@@ -9,8 +9,14 @@
   <li>anbi</li>
 </ul>
       
-        </div> 
-        <div id="contact">
+        </div>
+        <div id="logos">
+            <img src="http://localhost/wordpress/wp-content/uploads/2017/04/facebook-wit.png"  width="50px" height="50px" >
+            <img src="http://localhost/wordpress/wp-content/uploads/2017/04/twitter-wit.png"  width="50px" height="50px" >
+            <img src="http://localhost/wordpress/wp-content/uploads/2017/04/youtube-wit.png"  width="50px" height="50px" >
+        </div>
+        <div id="contactfooter">
+
           <h2>Contact</h2>
            <ul>
                <li>Contactgegevens</li>

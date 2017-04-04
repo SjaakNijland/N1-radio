@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.7.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-27 06:25:26+0000\n"
+"PO-Revision-Date: 2017-04-03 14:07:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,7 +38,7 @@ msgstr ","
 
 #: wp-includes/option.php:1762
 msgid "This address is used for admin purposes, like new user notification."
-msgstr "Dit adres word gebruikt voor administratieve doeleinden, zoals meldingen voor nieuwe gebruikers."
+msgstr "Dit adres wordt gebruikt voor administratieve doeleinden, zoals meldingen voor nieuwe gebruikers."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:101
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:832
